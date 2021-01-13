@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- import style disini -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+<style>
+    button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+</style>
+</head>
+<body>
+    <!-- navbar -->
+    <div class ="header">
+        <img class="logo" src = "img/garaga_logo.png" alt="logo">
+        <nav>
+            <ul class="nav_links" id="navigation">
+                <li class="nav-list"><a class = "list" href="#">Services</a></li>
+                <li class="nav-list"><a class = "list" href="#">Product</a></li>
+                <li class="nav-list"><a class = "list" href="#2">Buy Now</a></li> 
+                <li class="nav-list"><a class = "list" href="#">About</a></li>
+                <a class="cta" href="#"><button>Contact</button></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </ul>
+        </nav>
+    </div>
+        <!-- section1 nama barang -->
+        <section id="0">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="font center-title">-GARAGA-</p>
+                        <hr class="biasa">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section id="1">
+        <div class="bottom-circle-black" id="myCircle">
+            <img src="img/hitam.png" class="kopi">
+        </div>
+        <!-- <div class="bottom-circle">
+            <div class="wave">
+                 <svg viewBox="-1 -1 40 100" preserveAspectRatio="xMinYMin meet"> 
+                     <path d="M 19 5 C 13 7 5 6 0 0 C 0 0 0 0 0 0 C 0 29 38 28 38 0 C 29 -1 25 3 19 5" style="stroke: bisque; fill:#967259;">                                
+                     </path>
+                 </svg>
+            </div>
+        </div> -->
+        <!--  -->
+        <!--  -->
+        <div class="table">
+            <ul class="thumb">
+            <li><img src="img/coklat.png" onclick="imgSlider('img/coklat.png','bottom-circle-brown');circleColor('oldlace');subTitle('-BROWN GARAGA-');description('Brown garaga is robusta coffee from singaraja dolor sit amet consectetur adipisicing elit. Beatae inventore ex ut quos itaque facilis aliquid ad laborum quas nemo fugit minima corporis dolores natus qui alias, ipsa dignissimos eligendi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam architecto voluptatem eius dolores est neque voluptates totam temporibus! Minus rerum facere voluptate aliquam aperiam doloribus deserunt vero placeat repellendus impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusamus saepe fugit provident numquam nobis? Laboriosam autem quidem id, architecto sequi iusto veniam rem obcaecati delectus ex. Ipsa, deserunt accusamus.');descCircle('rgb(229, 236, 186)')"></li>
+                <li><img src="img/hitam.png" onclick="imgSlider('img/hitam.png','bottom-circle-black');circleColor('black');subTitle('-BLACK GARAGA-');description('Black garaga is robusta coffee from singaraja dolor sit amet consectetur adipisicing elit. Beatae inventore ex ut quos itaque facilis aliquid ad laborum quas nemo fugit minima corporis dolores natus qui alias, ipsa dignissimos eligendi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam architecto voluptatem eius dolores est neque voluptates totam temporibus! Minus rerum facere voluptate aliquam aperiam doloribus deserunt vero placeat repellendus impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusamus saepe fugit provident numquam nobis? Laboriosam autem quidem id, architecto sequi iusto veniam rem obcaecati delectus ex. Ipsa, deserunt accusamus.');descCircle('rgb(14, 12, 12)')"></li>
+            </ul>
+        </div>
+    </section>
+        <!-- buy now  link href-->
+    <section id="2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="font center-buynow">Purchase</p>
+                </div>
+            </div>
+        </div>
+        <hr class="batas">
+    </section>
+    <!-- section jenis barang bisa diisi slider -->
+    <!-- about -->
+    <section id="3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="font center-title">ABOUT</p>
+                    <p class="font center-subtitle" id="subtitle">-BLACK  GARAGA-</GARAGA-></p>
+                    <hr class="biasa">
+                </div>
+            </div>
+            <div class="row-about-img">
+                <div class="circle-image" id="desc-circle">
+                    <img src="img/hitam.png" id="image-desc">
+                </div>
+            </div>
+            <div class="row-about">
+                <div class="col-about">
+                    <p class="font description" id="deskripsi">Black garaga is robusta coffee from singaraja dolor sit amet consectetur adipisicing elit. Beatae inventore ex ut quos itaque facilis aliquid ad laborum quas nemo fugit minima corporis dolores natus qui alias, ipsa dignissimos eligendi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam architecto voluptatem eius dolores est neque voluptates totam temporibus! Minus rerum facere voluptate aliquam aperiam doloribus deserunt vero placeat repellendus impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusamus saepe fugit provident numquam nobis? Laboriosam autem quidem id, architecto sequi iusto veniam rem obcaecati delectus ex. Ipsa, deserunt accusamus.</p>
+                </div>
+                <div class="col-about" id="purchase">
+                    <p class="font description">PRICE:</p>
+
+                    <p class="font center-title">Rp.12.500/Ons</p>
+                    <button type="submit" name="" value="12500"><a href="purchase.php">Purchase Now</a></button>
+                    <p></p>
+                    <form action="purchase-cod.php" method="POST">
+                        <button type="submit" name="price" value="12500">Purchase by COD</button>
+                    </form>
+                    <!-- <a class="cta" href='purchase.php?price=12500'><button>Purchase</button></a> -->
+                </div>
+                <!-- <div class="col-about">
+                    <p class="font description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae inventore ex ut quos itaque facilis aliquid ad laborum quas nemo fugit minima corporis dolores natus qui alias, ipsa dignissimos eligendi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam architecto voluptatem eius dolores est neque voluptates totam temporibus! Minus rerum facere voluptate aliquam aperiam doloribus deserunt vero placeat repellendus impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusamus saepe fugit provident numquam nobis? Laboriosam autem quidem id, architecto sequi iusto veniam rem obcaecati delectus ex. Ipsa, deserunt accusamus.</p>
+                </div> -->
+            </div>
+        </div>
+        <hr class="batas">
+    </section>
+
+    <!-- section harga barang -->
+
+    <!-- social -->
+    <section id="4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="font center-title">SOCIAL MEDIA</p>
+                    <hr class="biasa">
+                </div>
+            </div>
+            <div class="row-social">
+                <div class="colom">
+                    <img class="center" src="img/facebook.png"  alt="facebook">  
+                    <img class="center" src="img/instagram.png"  alt="instagram">
+                    <img class="center" src="img/twitter.png"  alt="twitter">
+                </div>
+            </div>
+            <div class="row-profile">
+                <div class="profile">
+                     <img src="img/profil2.jpg" >
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy arta la vista</p>
+            <p>2020</p>
+        </div>
+    </section>
+
+
+    <!-- import script disini -->
+    <!-- script navbar responsive-->
+    <script>
+        function myFunction() {
+    var x = document.getElementById("navigation");
+    if (x.className === "nav_links") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav_links";
+    }
+  }
+
+  function imgSlider(anything){
+      document.querySelector('.kopi').src = anything;
+      document.getElementById("image-desc").src = anything
+
+  }
+function circleColor(color){
+const circle = document.getElementById("myCircle")
+circle.style.borderBottomColor = color;
+circle.style.borderRightColor = color;
+circle.style.borderLeftColor = color;
+}
+function subTitle(any){
+document.getElementById("subtitle").innerHTML = any;
+// subtitle.text = sub;
+}
+function description(any){
+document.getElementById("deskripsi").innerHTML = any;
+// subtitle.text = sub;
+}
+function descCircle(any){
+    document.getElementById("desc-circle").style.background = any;
+}
+
+// subtitle.text = sub;
+
+    </script>
+</body>
+</html>

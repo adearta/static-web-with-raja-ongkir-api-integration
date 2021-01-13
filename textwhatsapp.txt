@@ -1,0 +1,6 @@
+Halo%20kak%20saya%20mau%20pesan%20Aroma%20Diffuser%20Aromatherapy%20Air%20Humidifier%20Desain%20Kayu%20K%20H41%0A%0A%20%20%20Nama%20Lengkap:%20Ade%0A%20%20%20Alamat:%20Jl%20kali%0A%20%20%20No.HP:%20081246963811%0A%20%20%20Jumlah%20Orderan:%201%0A%20%20%20Jenis%20Pembayaran:%20COD%20(Cash%20On%20Delevery)%0A%20%20%20Tolong%20Segera%20di%20infokan%20total%20biayanya%20ya%20KK
+
+
+
+
+https://api.whatsapp.com/send?phone=6281211118369text=Halo%20kak%20saya%20mau%20pesan%20*Aroma%20Diffuser%20Aromatherapy%20Air%20Humidifier%20Desain%20Kayu%20K%20H41*%0A%20%20%20%0A%20*Nama%20Lengkap*%3A%20<?= $namanya ?>%20%0A%20*Alamat*%3A%20Jl%20<?= $Alamatnya ?>%20%0A%20*No.HP*%3A%20<?= $whatsappnya ?>%20%0A%20*Jumlah%20Orderan*%3A%20<?= $jumlahnya ?>%20%0A%20*Jenis%20Pembayaran*%3A%20COD%20(Cash%20On%20Delevery)%20%20%0A%20%20%0A%20Tolong%20Segera%20di%20infokan%20total%20biayanya%20ya%20KK
