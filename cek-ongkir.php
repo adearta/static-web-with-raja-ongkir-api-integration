@@ -207,14 +207,14 @@ if ($service == null) {
     //Set this to true if SMTP host requires authentication to send email
     $mail->SMTPAuth = true;
     //Provide username and password     
-    $mail->Username = "akuntesteremail@gmail.com";   //nama-email smtp          
-    $mail->Password = "19adearta97";           //password email smtp
+    $mail->Username = "emailanda@gmail.com";   //nama-email smtp          
+    $mail->Password = "password";           //password email smtp
     //If SMTP requires TLS encryption then set it
     $mail->SMTPSecure = "tls";
     //Set TCP port to connect to 
     $mail->Port = 587;
 
-    $mail->From = "akuntesteremail@gmail.com"; //email pengirim
+    $mail->From = "emailanda@gmail.com"; //email pengirim
     $mail->FromName = "ADE"; //nama pengirim
 
     $mail->addAddress($email, $_POST['nama']); //email penerima
@@ -371,14 +371,14 @@ if ($service == null) {
     //Set this to true if SMTP host requires authentication to send email
     $mail->SMTPAuth = true;
     //Provide username and password     
-    $mail->Username = "akuntesteremail@gmail.com";   //nama-email smtp          
-    $mail->Password = "19adearta97";           //password email smtp
+    $mail->Username = "emailanda@gmail.com";   //nama-email smtp          
+    $mail->Password = "password";           //password email smtp
     //If SMTP requires TLS encryption then set it
     $mail->SMTPSecure = "tls";
     //Set TCP port to connect to 
     $mail->Port = 587;
 
-    $mail->From = "akuntesteremail@gmail.com"; //email pengirim
+    $mail->From = "emailanda@gmail.com"; //email pengirim
     $mail->FromName = "TESTER"; //nama pengirim
 
     $mail->addAddress($email, $_POST['nama']); //email penerima
