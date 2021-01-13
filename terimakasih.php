@@ -148,18 +148,18 @@ $implodealamat = implode("%20", $explodealamat);
     //Set this to true if SMTP host requires authentication to send email
     $mail->SMTPAuth = true;
     //Provide username and password     
-    $mail->Username = "cs69belibarang@gmail.com";   //nama-email smtp          
-    $mail->Password = "sempol1969";           //password email smtp
+    $mail->Username = "emailanda@gmail.com";   //nama-email smtp          
+    $mail->Password = "password";           //password email smtp
     //If SMTP requires TLS encryption then set it
     $mail->SMTPSecure = "tls";
     //Set TCP port to connect to 
     $mail->Port = 587;
 
-    $mail->From = "cs69belibarang@gmail.com"; //email pengirim
+    $mail->From = "emailanda@gmail.com"; //email pengirim
     $mail->FromName = "Admin 69 Beli"; //nama pengirim
 
     $mail->addAddress($emailnya, $namanya); //email penerima
-    $mail->addAddress('69beliaja@gmail.com', $namanya);
+    $mail->addAddress('emailanda@gmail.com', $namanya);
     $mail->isHTML(true);
     $mail->AddEmbeddedImage('69beli-logo.png', '69beli-logo', '69beli-logo.png');
     // $mail->addStringAttachment(file_get_contents("https://ibb.co/Yy82mnL"), "garaga_logo");
